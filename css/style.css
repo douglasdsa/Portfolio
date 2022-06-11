@@ -1,0 +1,76 @@
+@font-face {
+	font-family: "Harry Potter";
+	src: url("hp.TTF");
+}
+  
+* {
+	text-decoration: none;
+}
+
+body{
+	padding-left: 17%;
+    padding-right: 17%;
+	background: url("../img/hp.jpg") fixed;
+	background-size: 100% 100%;
+}
+
+section{
+	padding-left: 3%;
+    padding-right: 3%;
+}
+
+.bordas{
+	border-top: 1px solid rgb(117, 105, 105);
+	border-bottom: 1px solid rgb(117, 105, 105);
+}
+
+.imagemDeFundo{
+    background: url("../img/pergaminho.png") center no-repeat fixed; 
+	background-size: 60% 105%;
+}
+
+.foto{
+	float: right;
+	width: 20%;
+	height: 20%;
+}
+
+.conteudo{
+	align-items: center;
+	padding-top: 13%;
+    padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 15%;
+}
+
+h1, h2{
+	font-family: 'Harry Potter', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+a:hover, summary:hover {
+	font-size: 105%;
+	font-weight: bold;
+}
+
+#BotaoTopo {
+    position: fixed;
+    bottom: 1.5rem;
+    right: .8rem;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: .5rem 1rem;
+    transition: .5s;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+#BotaoTopo:hover {
+    background-color: rgb(202, 200, 199);
+    transition: .5s;
+}
